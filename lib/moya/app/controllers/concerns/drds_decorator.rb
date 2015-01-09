@@ -4,10 +4,8 @@ class DrdsDecorator
   puts "OVER HERE"
   puts Crichton.inspect
   puts Crichton::Representor.inspect
+  puts require "crichton/representor/factory"
   puts Crichton::Representor::Factory.inspect
-  puts Crichton
-  puts Crichton::Representor
-  puts Crichton::Representor::Factory
   puts "NOT HERE"
   include Crichton::Representor::Factory
 
