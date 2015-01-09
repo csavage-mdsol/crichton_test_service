@@ -1,7 +1,8 @@
-require 'crichton'
 require 'crichton/representor'
 
 class DrdsDecorator
+  puts Crichton.inspect
+  puts Crichton::Representor.inspect
   include Crichton::Representor::Factory
 
   attr_reader :collection, :controller
