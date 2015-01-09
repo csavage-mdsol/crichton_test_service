@@ -1,12 +1,6 @@
-require 'crichton/representor'
+require 'crichton/representor/factory'
 
 class DrdsDecorator
-  puts "OVER HERE"
-  puts Crichton.inspect
-  puts Crichton::Representor.inspect
-  puts require "crichton/representor/factory"
-  puts Crichton::Representor::Factory.inspect
-  puts "NOT HERE"
   include Crichton::Representor::Factory
 
   attr_reader :collection, :controller
