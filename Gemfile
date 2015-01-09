@@ -4,4 +4,4 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'crichton', git: 'git@github.com:mdsol-share/crichton.git', branch: 'develop'
-gem 'representors', git: 'git@github.com:mdsol-share/representors.git', branch: 'develop'
+gem 'representors', git: 'git@github.com:mdsol-share/representors.git', branch: '0-0-stable'
