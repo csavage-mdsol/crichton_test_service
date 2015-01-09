@@ -1,6 +1,7 @@
 require 'crichton/representor'
 
 class DrdsDecorator
+  puts "OVER HERE"
   puts Crichton.inspect
   puts Crichton::Representor.inspect
   include Crichton::Representor::Factory
