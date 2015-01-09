@@ -1,4 +1,4 @@
-require 'crichton/representor'
+require 'crichton/representor/factory'
 
 class DrdsDecorator
   include Crichton::Representor::Factory
