@@ -16,6 +16,7 @@ RSpec.describe Moya do
 
       it 'returns an appropriate 404 response for an unkown drd' do
         show_url = hale_url_for("self", drds.embedded["items"].sample)
+        # Trim off the uuid and .hale_json, add back another uuid and .hale_json
         bad_show_url = "#{show_url[0...-46]}#{SecureRandom.uuid}.hale_json"
 
         response = get bad_show_url
