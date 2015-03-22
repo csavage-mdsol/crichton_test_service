@@ -13,12 +13,7 @@ module Moya
     env_vars = env_vars_hash(port, initializer_directory)
 
     Dir.chdir(rails_root) do
-      [ 'bundle exec rake config',
-        'bundle exec rake db:drop',
-        'bundle exec rake db:create',
-        'bundle exec rake db:migrate',
-        'bundle exec rake db:seed'
-      ].each { |str| system(env_vars, str)}
+       system(env_vars, 'bundle exec rake reseed')
     end
 
     @pid = Process.spawn(env_vars, "bundle exec rails server --port #{port}", chdir: "#{rails_root}")
