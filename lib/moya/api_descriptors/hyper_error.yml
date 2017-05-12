@@ -17,7 +17,7 @@ semantics:
     href: http://alps.io/schema.org/Text
   error_code:
     doc: Error code is the service's internal error code that describes the error.
-    href: http://example.org/profiles/ErrorCodes
+    href: http://example.mdsol/profiles/ErrorCodes
   http_status:
     doc: HTTP status is the HTTP status returned, if the service returned one.
     href: http://alps.io/schema.org/Integer

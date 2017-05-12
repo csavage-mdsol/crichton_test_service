@@ -2,7 +2,7 @@ common: &common
   alps_base_uri: <%= configured.alps_base_uri || 'http://localhost:3000/alps' %>
   deployment_base_uri: <%= configured.deployment_base_uri || 'http://localhost:3000' %>
   discovery_base_uri: <%= configured.discovery_base_uri || 'http://localhost:3000' %>
-  documentation_base_uri: <%= configured.documentation_base_uri || 'http://example.org' %>
+  documentation_base_uri: <%= configured.documentation_base_uri || 'http://example.mdsol' %>
   crichton_proxy_base_uri: <%= configured.crichton_proxy_base_uri || 'http://localhost:3000/crichton' %>
   use_alps_middleware: <%= configured.use_alps_middleware || true %>
   alps_profile_response_expiry: <%= configured.alps_profile_response_expiry || 20 %>

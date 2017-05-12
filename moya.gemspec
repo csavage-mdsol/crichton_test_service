@@ -27,11 +27,10 @@ Gem::Specification.new do |spec|
   # TODO: add dependencies on Crichton and Representors when hosted off git.
   # TODO: make it clear in README.md that this gem should only be listed as a development dependency
   # These dependencies need to include the gems listed in the rails project Gemfile.
-  spec.add_dependency 'rails', '4.1.8'
+  spec.add_dependency 'rails'
   spec.add_dependency 'launchy'
   spec.add_dependency 'sqlite3'
   spec.add_dependency 'rack'
   spec.add_dependency 'nokogiri'
-  spec.add_dependency 'yajl-ruby', '~> 1.2.0'
   spec.add_dependency 'activeuuid'
 end

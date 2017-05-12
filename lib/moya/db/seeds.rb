@@ -7,6 +7,6 @@
     status: Random.rand(2) > 0 ? 'activated' : 'deactivated',
     kind: Random.rand(2) > 0 ? 'standard' : 'sentinel',
     leviathan_uuid: leviathan_uuid = SecureRandom.uuid,
-    leviathan_url: "http://farscape.example.org/leviathan/#{leviathan_uuid}"
+    leviathan_url: "http://farscape.example.mdsol/leviathan/#{leviathan_uuid}"
   )
 end
