@@ -1,3 +1,10 @@
+# Deprecated
+
+This gem is deprecated. No further development will take place.
+
+The README below is left only as a reference.
+
+
 # Moya
 
 Moya is a gem intended to show basic API functionality for a Rails project using the [Crichton](https://github.com/mdsol/crichton) Gem as its API dispatcher.  It helps support automated and ad-hoc testing of hypermedia-related gems.
@@ -43,7 +50,7 @@ end
 
 This code in a ``` before(:suite) ``` hook first captures the old behavior for handling INT
 ( the SIGINT signal is sent to a process by its controlling terminal when a user wishes to interrupt
-the process), ensures that the process is killed, and then proceeds with the original behavior.  
+the process), ensures that the process is killed, and then proceeds with the original behavior.
 The rails pid is returned by the call to ``` spawn_rails_process! ```, which spins up a non blocking
 rails process using ``` Process.spawn ```.  The ``` after(:suite) ``` hook cleans up for
 the ``` before(:suite) ```, terminating the background rails process.  The service will be live and
